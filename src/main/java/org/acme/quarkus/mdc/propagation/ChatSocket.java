@@ -3,7 +3,7 @@ package org.acme.quarkus.mdc.propagation;
 import io.quarkus.logging.Log;
 import io.quarkus.redis.datasource.ReactiveRedisDataSource;
 import io.quarkus.redis.datasource.value.ReactiveValueCommands;
-import org.slf4j.MDC;
+import org.jboss.logging.MDC;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.websocket.*;
