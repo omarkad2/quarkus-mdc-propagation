@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  quarkus-redis:
+    container_name: quarkus-redis-master
+    image: redis
+    ports:
+      - "6379:6379"
